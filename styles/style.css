@@ -34,8 +34,15 @@ body >  header > nav {
     background-color: var(--cor4);
 }
 
-body >  header > nav > div{
-    padding: 10px 10px 10px 10px;
+body > header > nav > img{
+    display: block;
+    margin: auto;
+}
+
+
+
+body >  header > nav > div.menu{
+    padding: 0px 10px 10px 10px;
     
 }
 
