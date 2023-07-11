@@ -1,3 +1,5 @@
+  
+  
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
   
@@ -26,10 +28,31 @@
     padding: 0px;
 }
 
-body{
-    /*background-image: linear-gradient(var(--cor4), var(--cor2), var(--cor0), var(--cor2), var(--cor4));*/
+#barraNavegação{
+    height: 17vh;
+    background-color: var(--cor4);
 }
 
+#logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 25vh;
+}
+
+nav > div#links{
+    display: block;
+    position: relative;
+}
+
+
+
+
+body{
+
+}
+
+/*
 body >  header > nav {
     background-color: var(--cor4);
 }
@@ -39,12 +62,14 @@ body > header > nav > img{
     margin: auto;
 }
 
-
-
 body >  header > nav > div.menu{
-    padding: 0px 10px 10px 10px;
+
+    display: inline-block;
+    margin: auto;
     
 }
+*/
+
 
 
 body >  header > nav > div > a{
