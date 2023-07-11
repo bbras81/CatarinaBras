@@ -49,8 +49,8 @@ nav > div#links{
 
 div#links > a{
     margin-left: 15px;
-font-family: var(--fonteMenu);
-    font-size: 1.2em;
+    font-family: var(--fonteMenu);
+    font-size: 1.2vw;
     font-weight: bold;
     text-decoration: none;   
     color: var(--cor1); 
