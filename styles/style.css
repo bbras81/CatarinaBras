@@ -20,7 +20,7 @@
         #ae6f27 38%,
         #f8c65d 50%;
     --fonteDoLogo:'Playfair Display', serif;
-
+    --fonteMenu:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 *{
@@ -29,7 +29,7 @@
 }
 
 #barraNavegação{
-    height: 17vh;
+    height: 18vh;
     background-color: var(--cor4);
 }
 
@@ -41,46 +41,29 @@
 }
 
 nav > div#links{
-    display: block;
-    position: relative;
+    position: absolute;
+    top: 14.5vh;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-
-
-
-body{
-
-}
-
-/*
-body >  header > nav {
-    background-color: var(--cor4);
-}
-
-body > header > nav > img{
-    display: block;
-    margin: auto;
-}
-
-body >  header > nav > div.menu{
-
-    display: inline-block;
-    margin: auto;
-    
-}
-*/
-
-
-
-body >  header > nav > div > a{
+div#links > a{
     margin-left: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: var(--fonteMenu);
+    font-size: 1.2em;
     font-weight: bold;
-    text-decoration: none;    
+    text-decoration: none;   
+    color: var(--cor1); 
     background: linear-gradient(var(--gold));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+a:hover{
+    text-decoration: underline;
+
+}
+
 
 
 
