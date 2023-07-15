@@ -36,11 +36,6 @@ body{
     background-color: var(--cor3);
     
 }
-main{
-    background-color:var(--cor2);
-    width: 98vw;
-    margin: auto;
-}
 
 #links{
     display: none;
@@ -79,9 +74,29 @@ menu > ul > li{
 menu > ul > li:hover{
     text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.284);
     transform: translate(-3px, -3px);
-
+    
     transition: 0.3s;
 }
+
+main{
+    width: 100vw;
+}
+div#container{
+    margin-top: 5px;
+    
+}
+
+
+main > div#container img{
+    display: block;
+    border-radius: 5px;
+    margin: auto;   
+    width: 98vw;
+}
+
+
+
+
 
 
 /*
