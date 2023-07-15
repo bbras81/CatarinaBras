@@ -79,9 +79,7 @@ menu > ul > li:hover{
 }
 
 main{
-    background-color: var(--cor3);
     width: 100vw;
-    height: 100vh;
 }
 div#container{
     margin-top: 5px;    
