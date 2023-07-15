@@ -27,7 +27,42 @@
     margin: 0px;
     padding: 0px;
 }
+#links{
+    display: none;
+}
+menu{
+    background-color: var(--cor4);
+}
 
+#logo{
+    display: block;
+    margin: auto;
+}
+#burger{
+    padding: 5px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    background: linear-gradient(var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+menu > ul > li{
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+menu > ul > li:hover{
+    font-size: 1.4em;
+    transition: 0.5s;
+}
+
+/*
 #barraNavegação{
     height: 18vh;
     background-color: var(--cor4);
@@ -63,7 +98,7 @@ a:hover{
     text-decoration: underline;
 
 }
-
+*/
 
 
 
