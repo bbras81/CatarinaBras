@@ -78,31 +78,18 @@ menu > ul > li{
 menu > ul > li:hover{
     text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.284);
     transform: translate(-3px, -3px);
-    
     transition: 0.3s;
 }
 
-main{
-    width: 100vw;
-}
 
 /*-------------------------------------------------------*/
+main{
+    position: relative;
+    width: 100%;
+}
+
 
 .carrousel{
-    border: 1px solid white;
-    position: relative;
-    height: 300px;
-    width: 85%;
-    margin: 0 auto;
-}
-.carrouselTrack > img{
-    object-fit: cover;
-}
-
-
-
-.carrouselTrack{
-    position: absolute;
-    display:inline;
-    overflow: hidden;
+    display: block;
+    margin: auto;
 }
