@@ -5,3 +5,5 @@ function openMenu(){
         links.style.display = 'block'
     }
 }
+
+

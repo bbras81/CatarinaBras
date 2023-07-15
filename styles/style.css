@@ -33,7 +33,7 @@ html, body{
     height: 100vh;
 }
 body{
-    background-color: var(--cor3);
+    background-color:var(--cor4);
     
 }
 
@@ -79,13 +79,13 @@ menu > ul > li:hover{
 }
 
 main{
+    background-color: var(--cor3);
     width: 100vw;
+    height: 100vh;
 }
 div#container{
-    margin-top: 5px;
-    
+    margin-top: 5px;    
 }
-
 
 main > div#container img{
     display: block;
