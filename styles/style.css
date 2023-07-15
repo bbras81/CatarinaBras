@@ -27,6 +27,21 @@
     margin: 0px;
     padding: 0px;
 }
+html, body{
+    font-family: var(--fonteMenu);
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-color: var(--cor3);
+    
+}
+main{
+    background-color:var(--cor2);
+    width: 98vw;
+    margin: auto;
+}
+
 #links{
     display: none;
 }
@@ -48,19 +63,26 @@ menu{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
 menu > ul > li{
+    display: block;
     font-size: 1.2em;
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.214);
     background: linear-gradient(var(--gold));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 menu > ul > li:hover{
-    font-size: 1.4em;
-    transition: 0.5s;
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.284);
+    transform: translate(-3px, -3px);
+
+    transition: 0.3s;
 }
+
 
 /*
 #barraNavegação{
