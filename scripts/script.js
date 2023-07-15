@@ -6,4 +6,7 @@ function openMenu(){
     }
 }
 
-
+const track = document.querySelector('#carrouselTrack');
+console.log(track)
+const slides = Array.from(track.children)
+console.log(slides)
