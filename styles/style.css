@@ -22,6 +22,11 @@
     --fonteDoLogo:'Playfair Display', serif;
     --fonteMenu:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/*Comando que retira as barras de rolagem*/
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 
 *{
     margin: 0px;
@@ -59,7 +64,6 @@ menu{
     -webkit-text-fill-color: transparent;
 }
 
-
 menu > ul > li{
     display: block;
     font-size: 1.2em;
@@ -81,60 +85,24 @@ menu > ul > li:hover{
 main{
     width: 100vw;
 }
-div#container{
-    margin-top: 5px;    
+
+/*-------------------------------------------------------*/
+
+.carrousel{
+    border: 1px solid white;
+    position: relative;
+    height: 300px;
+    width: 85%;
+    margin: 0 auto;
+}
+.carrouselTrack > img{
+    object-fit: cover;
 }
 
-main > div#container img{
-    display: block;
-    border-radius: 5px;
-    margin: auto;   
-    width: 98vw;
-}
 
 
-
-
-
-
-/*
-#barraNavegação{
-    height: 18vh;
-    background-color: var(--cor4);
-}
-
-#logo{
+.carrouselTrack{
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    width: 25vh;
+    display:inline;
+    overflow: hidden;
 }
-
-nav > div#links{
-    position: absolute;
-    top: 14.5vh;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-div#links > a{
-    margin-left: 15px;
-    font-family: var(--fonteMenu);
-    font-size: 1.2vw;
-    font-weight: bold;
-    text-decoration: none;   
-    color: var(--cor1); 
-    background: linear-gradient(var(--gold));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-a:hover{
-    text-decoration: underline;
-
-}
-*/
-
-
-
-

@@ -6,7 +6,15 @@ function openMenu(){
     }
 }
 
-const track = document.querySelector('#carrouselTrack');
+const track = document.querySelector('.carrouselTrack');
 console.log(track)
 const slides = Array.from(track.children)
 console.log(slides)
+const slideWidth = slides[0].getBoundingClientRect().width;
+console.log(slideWidth)
+
+
+const setSlidePosition = (slide, index) => {
+    slide.style.left = slideWidth * index + 'px';
+};
+slides.forEach(setSlidePosition);
