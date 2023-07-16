@@ -103,7 +103,7 @@ main > div{
 
 .carrouselTrack > img{
     width: 100vw;
-    margin-left: 0%;
+    margin-left: -0%;
 
 }
 
@@ -144,41 +144,22 @@ main > div{
 
 .arrowLeft:hover, .arrowRight:hover{
     font-size: 2.3em;
+    transition: 0.2s;
 }
-
-/*
-
-.buttons{
-    position: relative;
-    width: 100vw;
-}
-
-
-.arrowLeft{
+.checkButtons{
+    width: 100%;
+    height: 100%;
     position: absolute;
-    text-align: center;
-    cursor: pointer;
-    font-size: 2em;
-    background: linear-gradient(var(--gold));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    top: 100vh;
+
 }
-.arrowRight{
+.checkButton{
     position: absolute;
-    text-align: center;
-    cursor: pointer;
-    font-size: 2em;
-    background: linear-gradient(var(--gold));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    bottom: 2%;
 }
+
 
 .buttonSel{
-    position: relative;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
+    position: absolute;
+    background: linear-gradient(var(--gold));
+    border-radius: 50%;
 }
-
-*/
