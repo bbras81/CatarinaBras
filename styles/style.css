@@ -85,28 +85,100 @@ menu > ul > li:hover{
 /*-------------------------------------------------------*/
 main{
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    width: 100%;
 }
+
+main > div{
+}
+
 
 
 .carrousel{
-    width: 95vw;
-    margin: 0 auto;
-    border-radius: 10px;
+    display: block;
+    width: 98vw;
+    margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
-.container{
-
-    display: flex;
-}
 
 .carrouselTrack > img{
-    
     width: 100vw;
     margin-left: 0%;
 
+}
+
+.container{
+    display: flex;
+}
+
+/*----Definições dos botoes-----*/
+
+.buttons{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 
 }
+
+.buttonsHeight{
+    cursor: pointer;
+    font-size: 3em;
+    background: linear-gradient(var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.arrowLeft{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+}
+
+.arrowRight{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    
+}
+
+.arrowLeft:hover, .arrowRight:hover{
+    font-size: 2.3em;
+}
+
+/*
+
+.buttons{
+    position: relative;
+    width: 100vw;
+}
+
+
+.arrowLeft{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    background: linear-gradient(var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 100vh;
+}
+.arrowRight{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    background: linear-gradient(var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttonSel{
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+*/
