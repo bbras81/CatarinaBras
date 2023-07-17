@@ -4,6 +4,7 @@
 
   
 :root{
+    --slide:0%;
     --cor0:#F2E8B3;
     --cor1:#D9B166;
     --cor2:#8C5F27;
@@ -75,6 +76,8 @@ menu > ul > li{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
 menu > ul > li:hover{
     text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.284);
     transform: translate(-3px, -3px);
@@ -104,8 +107,9 @@ main > div{
 
 .carrouselTrack > img{
     width: 100vw;
-    margin-left: -100%;
-
+}
+.foto{
+    margin-left:var(--slide);
 }
 
 .container{
@@ -142,11 +146,12 @@ main > div{
     transform: translateY(-50%);
     
 }
-
+/*
 .arrowLeft:hover, .arrowRight:hover{
     font-size: 2.3em;
     transition: 0.2s;
 }
+*/
 
 /*----Check buttons---*/
 div.buttons > ul{

@@ -11,10 +11,13 @@ console.log(track)
 const slides = Array.from(track.children)
 console.log(slides)
 
-
-let viewMovment = document.getElementsByClassName('carrouselTrack');
+const root = document.querySelector(':root')
 
 function leftClick(){
-    console.log('teste')
-    
+    root.style.setProperty('--slide', '-100%')
 };
+
+function rightClick(){
+    root.style.setProperty('--slide', '-200%')
+
+}
