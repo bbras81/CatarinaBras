@@ -10,8 +10,11 @@ const track = document.querySelector('.container');
 console.log(track)
 const slides = Array.from(track.children)
 console.log(slides)
-let 
+
+
+let viewMovment = document.getElementsByClassName('carrouselTrack');
 
 function leftClick(){
-
-}
+    console.log('teste')
+    
+};
