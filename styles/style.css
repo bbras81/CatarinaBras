@@ -94,7 +94,7 @@ main > div{
 
 .carrousel{
     display: block;
-    width: 98vw;
+    width: 95vw;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -149,16 +149,15 @@ main > div{
 
 /*----Check buttons---*/
 
-div.buttons > ul{
+}
+.checkButton{
     position: absolute;
-    right: 50%; 
     bottom: 2%;
-    transform: translateX(50%);
 }
 
-div.buttons > ul > li{
-    font-size: 3em;
+
+.buttonSel{
+    position: absolute;
+    background: linear-gradient(var(--gold));
     border-radius: 50%;
-    display: inline-block;
 }
-
