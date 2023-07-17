@@ -94,6 +94,7 @@ main > div{
 
 .carrousel{
     display: block;
+    /*Controla o espaço que ocupa a foto */
     width: 95vw;
     margin: auto;
     overflow: hidden;
@@ -103,7 +104,7 @@ main > div{
 
 .carrouselTrack > img{
     width: 100vw;
-    margin-left: -0%;
+    margin-left: 0px;
 
 }
 
