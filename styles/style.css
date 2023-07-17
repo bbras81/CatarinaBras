@@ -94,7 +94,7 @@ main > div{
 
 .carrousel{
     display: block;
-    width: 98vw;
+    width: 95vw;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -146,20 +146,28 @@ main > div{
     font-size: 2.3em;
     transition: 0.2s;
 }
+
+
+/* ---- CHECK BOTTONS----- */
 .checkButtons{
+    position: absolute;
     width: 100%;
-    height: 100%;
-    position: absolute;
-
 }
-.checkButton{
-    position: absolute;
-    bottom: 2%;
-}
-
-
-.buttonSel{
-    position: absolute;
+.checkButtonsHeight{
+    cursor: pointer;
+    font-size: 2em;
     background: linear-gradient(var(--gold));
-    border-radius: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+.checkButtons > ul > {
+    position: absolute;
+    display: block;
+    margin: auto;
+    
+}
+.checkButtons > ul > li{
+    display: inline-block;
+}
+
+
