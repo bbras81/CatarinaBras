@@ -153,7 +153,7 @@ div.buttons > ul{
     display: block;
     left: 50%;
     bottom: 1%;
-    
+    transform: translateX(-50%);
 }
 
 div.buttons > ul > li{
