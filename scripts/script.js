@@ -11,9 +11,22 @@ console.log(track)
 const slides = Array.from(track.children)
 console.log(slides)
 
-const root = document.querySelector(':root')
+const root = document.querySelector(':root');
+var slide = 0
+while(true){
+    if (slide == slides.length){
+        slide = 0;
+        root.style.setProperty('--slide', `${slide}` + '%')
+    }else{
+        var move = slide * 100
+        root.style.setProperty('--slide', `${move}` + '%')
+    }
+    slide ++;
+}
 
 function leftClick(){
+    //Quando clico no botao tenho que saber em que slide está 
+
     root.style.setProperty('--slide', '-100%')
 };
 
