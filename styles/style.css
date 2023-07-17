@@ -150,8 +150,15 @@ main > div{
 
 /* ---- CHECK BOTTONS----- */
 .checkButtons{
+<<<<<<< HEAD
     position: absolute;
     width: 100%;
+=======
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+
+>>>>>>> 4eb4573d19ba41bec1ce8ea3dfa45193fe28fb4b
 }
 .checkButtonsHeight{
     cursor: pointer;
