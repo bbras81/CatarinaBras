@@ -149,15 +149,3 @@ main > div{
 
 /*----Check buttons---*/
 
-}
-.checkButton{
-    position: absolute;
-    bottom: 2%;
-}
-
-
-.buttonSel{
-    position: absolute;
-    background: linear-gradient(var(--gold));
-    border-radius: 50%;
-}
