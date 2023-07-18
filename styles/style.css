@@ -158,10 +158,12 @@ div.buttons > ul{
     position: absolute;
     display: block;
     left: 50%;
-    bottom: 1%;
+    bottom: 2%;
     transform: translateX(-50%);
 }
 
 div.buttons > ul > li{
     display: inline-block;
+    font-size: 50%;
 }
+
