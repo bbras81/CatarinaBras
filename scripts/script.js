@@ -12,7 +12,13 @@ const slides = Array.from(track.children)
 console.log(slides)
 
 const root = document.querySelector(':root');
-var slideFoto = 0;
+let slideFoto = 1;
+
+function fotoSlides() => {
+
+}
+
+
 /*
 while (true){
     if (slideFoto != slides.length){
@@ -23,19 +29,25 @@ while (true){
     }
 
 }
-*/
 
 
 
+function rightClick(){
+    if (slideFoto != slides.length){
+        root.style.setProperty('--slide', '-'+slideFoto*100+'%')
+        slideFoto ++
+    }else{
+        root.style.setProperty('--slide', '0%')
+        slideFoto = 1
+    }
+}
 
 
 function leftClick(){
     //Quando clico no botao tenho que saber em que slide está 
+    let position = root.style.getProperty('--slide')
 
-    root.style.setProperty('--slide', '-100%')
 };
+console.log(slideFoto)
 
-function rightClick(){
-    root.style.setProperty('--slide', '-200%')
-
-}
+*/
