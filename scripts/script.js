@@ -14,13 +14,9 @@ console.log(slides)
 const root = document.querySelector(':root')
 
 let slideCount = 0
-let start = false
+
 
 function forwardArrow(){
-    if (start == false){
-        slideCount = 0
-        start = true
-    }
     if (slideCount != slides.length -1){
         slideCount ++
         root.style.setProperty('--slide', '-'+ slideCount+'00%')
@@ -45,61 +41,3 @@ function backArrow(){
     }
 }
 
-
-/*
-document.addEventListener('DOMContentLoaded', function(){
-    let slideCount = 1
-    const rightArrow = document.querySelector('.arrowRight')
-    const leftArrow = document.querySelector('.arrowLeft')
-    
-    rightArrow.addEventListener('click', function(){
-        if (slideCount != slides.length){
-            root.style.setProperty('--slide', '-'+ slideCount*100 +'%')
-            slideCount ++
-            console.log('IF',slideCount)
-        }else{
-            root.style.setProperty('--slide', '0%')
-            slideCount = 1
-            console.log('Else',slideCount)
-        }
-    })
-    
-    leftArrow.addEventListener('click', function() {
-        slideCount -= 1
-        root.style.setProperty('--slide', '-'+ slideCount*100 +'%')
-        
-
-    })
-})
-*/
-
-
-/*
-
-
-
-while (true){
-    if (slideFoto != slides.length){
-        (slideFoto += 1) * -100
-        root.style.setProperty('--slide', '-100%')
-    }else{
-        slideFoto = 0
-    }
-
-}
-function rightClick(){
-    if (slideFoto != slides.length){
-        root.style.setProperty('--slide', '-'+slideFoto*100+'%')
-        slideFoto ++
-    }else{
-        root.style.setProperty('--slide', '0%')
-        slideFoto = 1
-    }
-}
-function leftClick(){
-    //Quando clico no botao tenho que saber em que slide está 
-    let position = root.style.getProperty('--slide')
-
-};
-console.log(slideFoto)
-*/
