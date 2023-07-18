@@ -6,20 +6,44 @@ function openMenu(){
     }
 }
 
-const track = document.querySelector('.container');
+const track = document.querySelector('.container')
 console.log(track)
 const slides = Array.from(track.children)
 console.log(slides)
 
-const root = document.querySelector(':root');
-let slideFoto = 1;
+const root = document.querySelector(':root')
 
-function fotoSlides() => {
 
-}
+document.addEventListener('DOMContentLoaded', function(){
+    let slideCount = 1
+    const rightArrow = document.querySelector('.arrowRight')
+    const leftArrow = document.querySelector('.arrowLeft')
+    
+    rightArrow.addEventListener('click', function(){
+        if (slideCount != slides.length){
+            root.style.setProperty('--slide', '-'+ slideCount*100 +'%')
+            slideCount ++
+            console.log('IF',slideCount)
+        }else{
+            root.style.setProperty('--slide', '0%')
+            slideCount = 1
+            console.log('Else',slideCount)
+        }
+    })
+    
+    leftArrow.addEventListener('click', function() {
+        
+        root.style.setProperty('--slide', '-'+ slideCount*100 +'%')
+        
+
+    })
+})
 
 
 /*
+
+
+
 while (true){
     if (slideFoto != slides.length){
         (slideFoto += 1) * -100
@@ -29,9 +53,6 @@ while (true){
     }
 
 }
-
-
-
 function rightClick(){
     if (slideFoto != slides.length){
         root.style.setProperty('--slide', '-'+slideFoto*100+'%')
@@ -41,13 +62,10 @@ function rightClick(){
         slideFoto = 1
     }
 }
-
-
 function leftClick(){
     //Quando clico no botao tenho que saber em que slide está 
     let position = root.style.getProperty('--slide')
 
 };
 console.log(slideFoto)
-
 */
