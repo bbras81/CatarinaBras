@@ -17,7 +17,7 @@ let slideCount = 0
 const checkButtons = document.querySelector('#checkButtons').children
 checkButtons[slideCount].innerHTML = '<span class="material-symbols-outlined buttonsHeight " onclick="">radio_button_checked</span>'
 
-setInterval(forwardArrow, 2500)
+//setInterval(forwardArrow, 2500)
 
 
 function forwardArrow(){

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaQueries.css">
     <title>Catarina Brás - Home Page</title>
 </head>
 <body>
@@ -23,6 +24,7 @@
     <main>
         <!--Photo carrousel and all dependense buttons-->
         <div class="carrousel">
+            <!-- Buttons -->
             <div class="buttons">
                 <span class="material-symbols-outlined arrowLeft buttonsHeight " onclick="backArrow()">arrow_back_ios</span>
                 <span class="material-symbols-outlined arrowRight buttonsHeight" onclick="forwardArrow()">arrow_forward_ios</span>
@@ -46,19 +48,34 @@
             </div>
             <div class="container">
                 <div class="carrouselTrack">
-                    <img class="foto" src="images/1.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    <picture> 
+                        <source media="(min-width: 768px)" srcset="images/carrossel1R.jpg">
+                        <img class="foto" src="images/1.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    </picture>
                 </div>
                 <div class="carrouselTrack">
-                    <img class="foto" src="images/2.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    <picture> 
+                        <source media="(min-width: 768px)" srcset="images/carrossel1R.jpg">
+                        <img class="foto" src="images/2.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    </picture>
                 </div>
                 <div class="carrouselTrack">
-                    <img class="foto" src="images/3.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    <picture> 
+                        <source media="(min-width: 768px)" srcset="images/carrossel1R.jpg">
+                        <img class="foto" src="images/3.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    </picture>
                 </div>
                 <div class="carrouselTrack">
-                    <img class="foto" src="images/4.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    <picture> 
+                        <source media="(min-width: 768px)" srcset="images/carrossel1R.jpg">
+                        <img class="foto" src="images/4.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    </picture>
                 </div>
                 <div class="carrouselTrack">
-                    <img class="foto" src="images/5.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    <picture> 
+                        <source media="(min-width: 768px)" srcset="images/carrossel1R.jpg">
+                        <img class="foto" src="images/5.png" alt="Foto da Catarina Brás cantando com sentimento">
+                    </picture>
                 </div>
             </div>
         </div>

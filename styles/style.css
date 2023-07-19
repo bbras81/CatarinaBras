@@ -39,6 +39,7 @@ html, body{
     height: 100vh;
 }
 body{
+    /*background-color:var(--cor4);*/
     background-color:var(--cor4);
     
 }
@@ -91,14 +92,17 @@ main{
 }
 
 main > h2{
-    margin-top: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     text-align: center;
     background: linear-gradient(var(--gold));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .video{
-    width: 98vw;
+    display: block;
+    margin: auto;
+    width: 96vw;
 }
 
 
@@ -107,14 +111,14 @@ main > h2{
 .carrousel{
     display: block;
     /*Controla o espaço que ocupa a foto */
-    width: 95vw;
+    width: 96vw;
     margin: auto;
     overflow: hidden;
     position: relative;
 }
 
 
-.carrouselTrack > img{
+.carrouselTrack > picture > img{
     width: 100vw;
 }
 .foto{
