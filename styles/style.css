@@ -97,7 +97,9 @@ main > h2{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.video{
+    width: 98vw;
+}
 
 
 /*---- Carrousel ----*/
@@ -174,3 +176,13 @@ div.buttons > ul > li{
     font-size: 50%;
 }
 /*---- CARROUSEL ----*/
+
+footer{
+    margin-top: 10px;
+    background-color: black;
+    color: var(--cor1);
+    text-align: center;
+    padding: 5px;
+    font-size: 0.6em;
+
+}
