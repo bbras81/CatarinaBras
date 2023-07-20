@@ -101,14 +101,18 @@ main > h2{
 }
 
 .videoContainer{
-    display: block;
+    display: inline-block;
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
 
 }
 
-.video{
-    display: inline-block;
-    width: 96vw;
+iframe{
+    width: 400px;
+    height: 225px;
+    margin: 10px 100px;
 }
 
 
