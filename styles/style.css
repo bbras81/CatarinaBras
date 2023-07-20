@@ -89,7 +89,6 @@ menu > ul > li:hover{
 /*-------------------------------------------------------*/
 main{
     width: 100vw;
-    height: 100vh;
 }
 
 main > h2{
@@ -101,13 +100,17 @@ main > h2{
     -webkit-text-fill-color: transparent;
 }
 
-
-
-iframe{
+.videoContainer{
     display: block;
-    width: 96vw;
-    margin: auto;
+    position: relative;
+
 }
+
+.video{
+    display: inline-block;
+    width: 96vw;
+}
+
 
 
 /*---- Carrousel ----*/
@@ -115,7 +118,9 @@ iframe{
 .carrousel{
     display: block;
     /*Controla o espaço que ocupa a foto */
-    width: 96vw;
+    width: 96%;
+    max-width: 1200px;
+    max-height: 800px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -124,6 +129,8 @@ iframe{
 
 .carrouselTrack > picture > img{
     width: 100vw;
+    max-width: 1200px;
+    max-height: 800px;
 }
 .foto{
     transition: 200ms;
