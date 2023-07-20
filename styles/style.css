@@ -108,14 +108,17 @@ main > h2{
 
 
 }
-
-iframe{
-    width: 400px;
-    height: 225px;
-    margin: 10px 100px;
+.video{
+    display: flex;
 }
 
+iframe{
+   
+}
 
+.frame2{
+    display: none;
+}
 
 /*---- Carrousel ----*/
 
