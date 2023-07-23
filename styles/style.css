@@ -112,8 +112,10 @@ main > h2{
     display: flex;
 }
 
-iframe{
-   
+
+.frame1{
+    width: 450px;
+    height: 253px;
 }
 
 .frame2{
@@ -178,12 +180,6 @@ iframe{
     transform: translateY(-50%);
     
 }
-/*
-.arrowLeft:hover, .arrowRight:hover{
-    font-size: 2.3em;
-    transition: 0.2s;
-}
-*/
 
 /*----Check buttons---*/
 div.buttons > ul{

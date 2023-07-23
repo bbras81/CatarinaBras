@@ -2,13 +2,15 @@
     .frame2{
         display: block;
         margin-left: 250px;
-    }
-
-    iframe{
-        width: 350px;
-        height: 197px;
+        width: 400px;
+        height: 225px;
     
     }
 
+    .frame1{
+        width: 400px;
+        height: 225px;
+    }
+    
 
 }
